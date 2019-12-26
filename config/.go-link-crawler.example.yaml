@@ -1,0 +1,4 @@
+crawler:
+  workers: 3
+  depth: 5
+  use_regex_for_parsing: true

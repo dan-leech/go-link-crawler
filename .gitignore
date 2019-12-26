@@ -1,0 +1,6 @@
+/.idea
+/config/.go-link-crawler.yaml
+
+main_go
+go-link-crawler
+go-link-crawler.zip
