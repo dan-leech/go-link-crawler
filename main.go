@@ -10,6 +10,9 @@ import (
 )
 
 func main() {
+	// set log level
+	log.SetLevel(log.TraceLevel)
+
 	conf := config.Init()
 	crawler := services.NewCrawlerService(conf.CrawlerConfig)
 
